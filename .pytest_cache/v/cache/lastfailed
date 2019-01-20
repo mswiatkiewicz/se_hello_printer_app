@@ -1,4 +1,1 @@
-{
-  "test/test_views.py::FlaskrTestCase::test_msg_with_output": true,
-  "test/test_views.py::FlaskrTestCase::test_outputs": true
-}
+{}
