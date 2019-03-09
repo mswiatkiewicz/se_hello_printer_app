@@ -10,4 +10,7 @@ script:
     - make test
     - make docker_build
     - make docker_push
-    
+deploy:
+  provider: heroku
+  api_key:
+    secure: 0a046912-c48b-4c5d-b0a4-8650ce903482    
