@@ -12,5 +12,6 @@ script:
     - make docker_push
 deploy:
   provider: heroku
-  api_key:
-    secure: 0a046912-c48b-4c5d-b0a4-8650ce903482    
+  api_key: ${HEROKU_API_KEY}
+    secure: 69a265e5-3318-41c3-bb30-c36eb65d9039
+    
